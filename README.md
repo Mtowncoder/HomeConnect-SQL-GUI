@@ -5,6 +5,8 @@ In order to run this code you must make a home connect developer account
 
 This code is for Fridge-Freezers
 
+If you want to use for outside of Fridge-Freezers, the only thing you should have to change should be the URL's in the code and maybe the headers for the GET and PUT requests
+
 When authorizing for Simulator select IdentifyAppliance, Fridge-Freezer settings, Fridge-Freezer control
 
 Click first command, Look in the Curl -Get Headers for the auth_key(should start with Bearer). Also look for HAID
